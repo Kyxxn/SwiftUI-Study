@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				0EDE5D4F2CB4465800EB03E2 /* App */,
-				0EDE5D532CB44FE800EB03E2 /* @Published, ObservableObject */,
+				0EDE5D532CB44FE800EB03E2 /* @Published, ObservableObject, @ObservedObject */,
 				0EDE5D522CB4472A00EB03E2 /* @State, @Binding */,
 				0EDE5D4E2CB4441A00EB03E2 /* TableViewCell */,
 				0EDE5D502CB4467300EB03E2 /* MainViewController.swift */,
@@ -125,7 +125,7 @@
 			path = "@State, @Binding";
 			sourceTree = "<group>";
 		};
-		0EDE5D532CB44FE800EB03E2 /* @Published, ObservableObject */ = {
+		0EDE5D532CB44FE800EB03E2 /* @Published, ObservableObject, @ObservedObject */ = {
 			isa = PBXGroup;
 			children = (
 				0EDE5D5E2CB453F500EB03E2 /* @Published, ObservableObject, @ObservedObject 정리.md */,
@@ -133,7 +133,7 @@
 				0EDE5D5A2CB4511600EB03E2 /* DemoData.swift */,
 				0EDE5D542CB4500D00EB03E2 /* PublishedSuperView.swift */,
 			);
-			path = "@Published, ObservableObject";
+			path = "@Published, ObservableObject, @ObservedObject";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
