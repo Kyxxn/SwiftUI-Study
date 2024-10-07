@@ -8,6 +8,7 @@
 import UIKit
 import SwiftUI
 
+// 테이블뷰 셀 레퍼런스: https://fomaios.tistory.com/entry/WWDC-2022-%EA%B8%B0%EC%A1%B4-UIKit-%EC%95%B1%EC%97%90-SwiftUI-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-Use-SwiftUI-with-UIKit
 final class TableViewController: UIViewController {
     private let tableView = UITableView()
     
@@ -68,6 +69,27 @@ extension TableViewController: UITableViewDataSource {
                 }
             }
         }
+        
+        // MARK: configurationUpdateHandler
+//        cell.isMultipleTouchEnabled = true
+//        cell.configurationUpdateHandler = { cell, state in
+//            cell.contentConfiguration = UIHostingConfiguration {
+//                if state.isSelected {
+//                    VStack {
+//                        Image(systemName: "checkmark")
+//                            .foregroundColor(.blue)
+//                            .font(.title)
+//                        Text("Selected")
+//                            .font(.subheadline)
+//                            .foregroundColor(.blue)
+//                            .padding()
+//                            .onTapGesture {
+//                                print("Selected")
+//                            }
+//                    }
+//                }
+//            }
+//        }
         return cell
     }
     
