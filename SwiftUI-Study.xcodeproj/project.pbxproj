@@ -11,9 +11,12 @@
 		0ED77D492CB437D3002EA80D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED77D412CB437D3002EA80D /* LaunchScreen.storyboard */; };
 		0ED77D4B2CB437D3002EA80D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED77D3D2CB437D3002EA80D /* AppDelegate.swift */; };
 		0ED77D4C2CB437D3002EA80D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED77D442CB437D3002EA80D /* SceneDelegate.swift */; };
-		0EDE5D4B2CB43C7500EB03E2 /* SuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D4A2CB43C7500EB03E2 /* SuperView.swift */; };
+		0EDE5D4B2CB43C7500EB03E2 /* StateSuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D4A2CB43C7500EB03E2 /* StateSuperView.swift */; };
 		0EDE5D4D2CB4418D00EB03E2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D4C2CB4418D00EB03E2 /* TableViewController.swift */; };
 		0EDE5D512CB4467800EB03E2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D502CB4467300EB03E2 /* MainViewController.swift */; };
+		0EDE5D552CB4501F00EB03E2 /* PublishedSuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D542CB4500D00EB03E2 /* PublishedSuperView.swift */; };
+		0EDE5D572CB4503000EB03E2 /* WifiImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D562CB4502E00EB03E2 /* WifiImageView.swift */; };
+		0EDE5D592CB4505200EB03E2 /* @State @Binding 정리.md in Resources */ = {isa = PBXBuildFile; fileRef = 0EDE5D582CB4504800EB03E2 /* @State @Binding 정리.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +26,12 @@
 		0ED77D3F2CB437D3002EA80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ED77D402CB437D3002EA80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0ED77D442CB437D3002EA80D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0EDE5D4A2CB43C7500EB03E2 /* SuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperView.swift; sourceTree = "<group>"; };
+		0EDE5D4A2CB43C7500EB03E2 /* StateSuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateSuperView.swift; sourceTree = "<group>"; };
 		0EDE5D4C2CB4418D00EB03E2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		0EDE5D502CB4467300EB03E2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0EDE5D542CB4500D00EB03E2 /* PublishedSuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedSuperView.swift; sourceTree = "<group>"; };
+		0EDE5D562CB4502E00EB03E2 /* WifiImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiImageView.swift; sourceTree = "<group>"; };
+		0EDE5D582CB4504800EB03E2 /* @State @Binding 정리.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "@State @Binding 정리.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				0EDE5D4F2CB4465800EB03E2 /* App */,
-				0EDE5D522CB4472A00EB03E2 /* @State */,
+				0EDE5D532CB44FE800EB03E2 /* @Published, ObservableObject */,
+				0EDE5D522CB4472A00EB03E2 /* @State, @Binding */,
 				0EDE5D4E2CB4441A00EB03E2 /* TableViewCell */,
 				0EDE5D502CB4467300EB03E2 /* MainViewController.swift */,
-				0EDE5D4A2CB43C7500EB03E2 /* SuperView.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -103,11 +109,22 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		0EDE5D522CB4472A00EB03E2 /* @State */ = {
+		0EDE5D522CB4472A00EB03E2 /* @State, @Binding */ = {
 			isa = PBXGroup;
 			children = (
+				0EDE5D582CB4504800EB03E2 /* @State @Binding 정리.md */,
+				0EDE5D562CB4502E00EB03E2 /* WifiImageView.swift */,
+				0EDE5D4A2CB43C7500EB03E2 /* StateSuperView.swift */,
 			);
-			path = "@State";
+			path = "@State, @Binding";
+			sourceTree = "<group>";
+		};
+		0EDE5D532CB44FE800EB03E2 /* @Published, ObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				0EDE5D542CB4500D00EB03E2 /* PublishedSuperView.swift */,
+			);
+			path = "@Published, ObservableObject";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +190,7 @@
 			files = (
 				0ED77D472CB437D3002EA80D /* Assets.xcassets in Resources */,
 				0ED77D492CB437D3002EA80D /* LaunchScreen.storyboard in Resources */,
+				0EDE5D592CB4505200EB03E2 /* @State @Binding 정리.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ED77D4B2CB437D3002EA80D /* AppDelegate.swift in Sources */,
-				0EDE5D4B2CB43C7500EB03E2 /* SuperView.swift in Sources */,
+				0EDE5D552CB4501F00EB03E2 /* PublishedSuperView.swift in Sources */,
+				0EDE5D4B2CB43C7500EB03E2 /* StateSuperView.swift in Sources */,
+				0EDE5D572CB4503000EB03E2 /* WifiImageView.swift in Sources */,
 				0ED77D4C2CB437D3002EA80D /* SceneDelegate.swift in Sources */,
 				0EDE5D4D2CB4418D00EB03E2 /* TableViewController.swift in Sources */,
 				0EDE5D512CB4467800EB03E2 /* MainViewController.swift in Sources */,

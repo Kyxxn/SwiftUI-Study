@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         
-        let mainWithSwiftUI = UIHostingController(rootView: SuperView())
+        let mainWithSwiftUI = UIHostingController(rootView: StateSuperView())
         let mainWithUIKit = MainViewController()
         window?.rootViewController = mainWithSwiftUI
         window?.makeKeyAndVisible()
