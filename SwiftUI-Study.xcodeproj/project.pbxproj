@@ -20,6 +20,8 @@
 		0EDE5D5B2CB4511E00EB03E2 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D5A2CB4511600EB03E2 /* DemoData.swift */; };
 		0EDE5D5D2CB4529C00EB03E2 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D5C2CB4529800EB03E2 /* DemoView.swift */; };
 		0EDE5D5F2CB4540400EB03E2 /* @Published, ObservableObject, @ObservedObject 정리.md in Resources */ = {isa = PBXBuildFile; fileRef = 0EDE5D5E2CB453F500EB03E2 /* @Published, ObservableObject, @ObservedObject 정리.md */; };
+		0EDE5D622CB4591900EB03E2 /* EnvironmentObjectSuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D612CB4591500EB03E2 /* EnvironmentObjectSuperView.swift */; };
+		0EDE5D642CB45BEF00EB03E2 /* @EnvironmentObject 정리.md in Resources */ = {isa = PBXBuildFile; fileRef = 0EDE5D632CB45BE800EB03E2 /* @EnvironmentObject 정리.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		0EDE5D5A2CB4511600EB03E2 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
 		0EDE5D5C2CB4529800EB03E2 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 		0EDE5D5E2CB453F500EB03E2 /* @Published, ObservableObject, @ObservedObject 정리.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "@Published, ObservableObject, @ObservedObject 정리.md"; sourceTree = "<group>"; };
+		0EDE5D612CB4591500EB03E2 /* EnvironmentObjectSuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectSuperView.swift; sourceTree = "<group>"; };
+		0EDE5D632CB45BE800EB03E2 /* @EnvironmentObject 정리.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "@EnvironmentObject 정리.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				0EDE5D4F2CB4465800EB03E2 /* App */,
+				0EDE5D602CB4590800EB03E2 /* @EnvironmentObject */,
 				0EDE5D532CB44FE800EB03E2 /* @Published, ObservableObject, @ObservedObject */,
 				0EDE5D522CB4472A00EB03E2 /* @State, @Binding */,
 				0EDE5D4E2CB4441A00EB03E2 /* TableViewCell */,
@@ -134,6 +139,15 @@
 				0EDE5D542CB4500D00EB03E2 /* PublishedSuperView.swift */,
 			);
 			path = "@Published, ObservableObject, @ObservedObject";
+			sourceTree = "<group>";
+		};
+		0EDE5D602CB4590800EB03E2 /* @EnvironmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				0EDE5D632CB45BE800EB03E2 /* @EnvironmentObject 정리.md */,
+				0EDE5D612CB4591500EB03E2 /* EnvironmentObjectSuperView.swift */,
+			);
+			path = "@EnvironmentObject";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +214,7 @@
 				0ED77D472CB437D3002EA80D /* Assets.xcassets in Resources */,
 				0ED77D492CB437D3002EA80D /* LaunchScreen.storyboard in Resources */,
 				0EDE5D592CB4505200EB03E2 /* @State @Binding 정리.md in Resources */,
+				0EDE5D642CB45BEF00EB03E2 /* @EnvironmentObject 정리.md in Resources */,
 				0EDE5D5F2CB4540400EB03E2 /* @Published, ObservableObject, @ObservedObject 정리.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +230,7 @@
 				0ED77D4B2CB437D3002EA80D /* AppDelegate.swift in Sources */,
 				0EDE5D552CB4501F00EB03E2 /* PublishedSuperView.swift in Sources */,
 				0EDE5D4B2CB43C7500EB03E2 /* StateSuperView.swift in Sources */,
+				0EDE5D622CB4591900EB03E2 /* EnvironmentObjectSuperView.swift in Sources */,
 				0EDE5D5D2CB4529C00EB03E2 /* DemoView.swift in Sources */,
 				0EDE5D572CB4503000EB03E2 /* WifiImageView.swift in Sources */,
 				0ED77D4C2CB437D3002EA80D /* SceneDelegate.swift in Sources */,

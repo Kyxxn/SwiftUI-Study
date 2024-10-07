@@ -15,7 +15,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         
-        let mainWithSwiftUI = UIHostingController(rootView: PublishedSuperView(userCountData: DemoData()))
+        let contentView = EnvironmentObjectSuperView()
+        let demoData = DemoData()
+        let mainWithSwiftUI = UIHostingController(rootView: contentView.environmentObject(demoData))
         let mainWithUIKit = MainViewController()
         window?.rootViewController = mainWithSwiftUI
         window?.makeKeyAndVisible()
