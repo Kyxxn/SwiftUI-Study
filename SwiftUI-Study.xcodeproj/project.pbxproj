@@ -17,6 +17,8 @@
 		0EDE5D552CB4501F00EB03E2 /* PublishedSuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D542CB4500D00EB03E2 /* PublishedSuperView.swift */; };
 		0EDE5D572CB4503000EB03E2 /* WifiImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D562CB4502E00EB03E2 /* WifiImageView.swift */; };
 		0EDE5D592CB4505200EB03E2 /* @State @Binding 정리.md in Resources */ = {isa = PBXBuildFile; fileRef = 0EDE5D582CB4504800EB03E2 /* @State @Binding 정리.md */; };
+		0EDE5D5B2CB4511E00EB03E2 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D5A2CB4511600EB03E2 /* DemoData.swift */; };
+		0EDE5D5D2CB4529C00EB03E2 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE5D5C2CB4529800EB03E2 /* DemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		0EDE5D542CB4500D00EB03E2 /* PublishedSuperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedSuperView.swift; sourceTree = "<group>"; };
 		0EDE5D562CB4502E00EB03E2 /* WifiImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiImageView.swift; sourceTree = "<group>"; };
 		0EDE5D582CB4504800EB03E2 /* @State @Binding 정리.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "@State @Binding 정리.md"; sourceTree = "<group>"; };
+		0EDE5D5A2CB4511600EB03E2 /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		0EDE5D5C2CB4529800EB03E2 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 		0EDE5D532CB44FE800EB03E2 /* @Published, ObservableObject */ = {
 			isa = PBXGroup;
 			children = (
+				0EDE5D5C2CB4529800EB03E2 /* DemoView.swift */,
+				0EDE5D5A2CB4511600EB03E2 /* DemoData.swift */,
 				0EDE5D542CB4500D00EB03E2 /* PublishedSuperView.swift */,
 			);
 			path = "@Published, ObservableObject";
@@ -201,9 +207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EDE5D5B2CB4511E00EB03E2 /* DemoData.swift in Sources */,
 				0ED77D4B2CB437D3002EA80D /* AppDelegate.swift in Sources */,
 				0EDE5D552CB4501F00EB03E2 /* PublishedSuperView.swift in Sources */,
 				0EDE5D4B2CB43C7500EB03E2 /* StateSuperView.swift in Sources */,
+				0EDE5D5D2CB4529C00EB03E2 /* DemoView.swift in Sources */,
 				0EDE5D572CB4503000EB03E2 /* WifiImageView.swift in Sources */,
 				0ED77D4C2CB437D3002EA80D /* SceneDelegate.swift in Sources */,
 				0EDE5D4D2CB4418D00EB03E2 /* TableViewController.swift in Sources */,
